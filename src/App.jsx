@@ -1,6 +1,10 @@
+import Card from "./layout/Card"
+
 const App = () => {
   return (
-    <h1 className="text-3xl">DBC</h1>
+    <div className="min-h-screen overflow-hidden">
+      <Card />
+    </div>
   )
 }
 
