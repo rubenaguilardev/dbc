@@ -1,14 +1,11 @@
+import Image from '../components/Image.jsx'
 import Content from '../components/Content.jsx'
 
 const Card = () => {
     return (
         <main>
             <div>
-                <img 
-                    src='/img.png' 
-                    alt='image of Laura'
-                    className="rounded-t-2xl" 
-                />
+                <Image />
                 <Content />
             </div>
         </main>

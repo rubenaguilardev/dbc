@@ -1,7 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 @import "tailwindcss";
 
 @layer base {
   html {
     background-color: #23252C;
+    font-family: 'Inter', sans-serif;
   }
+}
+
+@theme {
+  --color-content-bg: #1A1B21;
+  --color-text-h2: #f3Bf99;
+  --color-whitesmoke: #f5f5f5;
 }
